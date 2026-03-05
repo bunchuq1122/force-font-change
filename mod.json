@@ -37,5 +37,8 @@
 	"links": {
 		"community": "https://github.com/bunchuq1122/force-font-change",
 		"source": "https://github.com/bunchuq1122/force-font-change"
-	}
+	},
+	"tags": [
+		"universal","interface"
+	]
 }
