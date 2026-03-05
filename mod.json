@@ -5,13 +5,10 @@
 	},
 	"id": "bunchuq1122.force-font-change",
 	"name": "Force Font CHange",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "Bunchuq1122",
 	"description": "Force change the font.",
-	"dependencies": {
-		"geode.node-ids": ">=v1.20.0",
-		"alphalaneous.alphas_geode_utils": ">=1.2.1"
-	},
+	"dependencies": {},
 	"settings": {
 		"customfnt": {
 			"type": "bool",
