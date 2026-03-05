@@ -23,18 +23,22 @@
 			"description": "Use custom .fnt file in your pc, this option is very <cr>dangerous</c>, Recommended files: *gjFont<cj>XX</c>-hd.fnt*. <cj>XX</c> is font number"
 		},
 		"font-file": {
-		"type": "file",
-		"name": "Custom Font File (.fnt)",
-		"description": "Select a .fnt file",
-		"default": "Please select a font file",
-		"enable-if": "customfnt",
-		"control": {
-			"dialog": "open",
-			"filters": [{
-				"files": ["*.fnt"],
-				"description": "BMFont Files"
-			}]
+			"type": "file",
+			"name": "Custom Font File (.fnt)",
+			"description": "Select a .fnt file",
+			"default": "Please select a font file",
+			"enable-if": "customfnt",
+			"control": {
+				"dialog": "open",
+				"filters": [{
+					"files": ["*.fnt"],
+					"description": "BMFont Files"
+				}]
+			}
 		}
-		}
+	},
+	"links": {
+		"community": "https://github.com/bunchuq1122/force-font-change",
+		"source": "https://github.com/bunchuq1122/force-font-change"
 	}
 }
