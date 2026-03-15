@@ -17,7 +17,8 @@ class $modify(CCLabelBMFont) {
 
 		auto fontPath =
             Mod::get()->getSettingValue<std::filesystem::path>("font-file");
-		std::string pathstr = fontPath.string();
+		std::string pathstr = string::pathToString(fontPath);
+
 
         if (std::string(fntFile) == "bigFont.fnt" || std::string(fntFile) == "goldFont.fnt") {
 			if (Mod::get()->getSettingValue<bool>("customfnt") && !pathstr.empty()) {
